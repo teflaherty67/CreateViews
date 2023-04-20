@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CreateViews</Text>
+    <Description>Some description for CreateViews</Description>
+    <Assembly>CreateViews.dll</Assembly>
+    <FullClassName>CreateViews.Command</FullClassName>
+    <ClientId>3b6182fe-dae4-41e4-bb20-05517484b2e1</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CreateViews</Name>
+    <Assembly>CreateViews.dll</Assembly>
+    <FullClassName>CreateViews.App</FullClassName>
+    <ClientId>c63bb73a-6c5f-4a00-843e-c1a8b1a3791a</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
